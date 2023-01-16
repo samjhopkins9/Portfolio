@@ -1,0 +1,29 @@
+/* @font-face statements import downloaded fonts from the Fonts folder within the parent directory */
+@font-face {
+    font-family: 'Cinzel';
+    src: url('../Fonts/Cinzel-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Amarante';
+    src: url('../Fonts/Amarante-Regular.ttf') format('truetype');
+}
+
+/* Aligns all text within the HTML to the center, sets background color to black */
+html {
+    text-align: center;
+    background-color: #000000;
+}
+
+/* Applies Amarante font, 50px size, and a red color to header at top of page */
+h1 {
+    color: #AA2211;
+    font-family: 'Amarante';
+    font-size: 50px;
+}
+
+/* Applies cinzel font and red color to song titles */
+.song h3 {
+    color: #AA2222;
+    font-family: 'Cinzel';
+}
