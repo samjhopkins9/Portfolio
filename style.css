@@ -26,8 +26,20 @@ html {
     background-color: #000000;
 }
 
+/* Ruleset for intro div containing headshot, name and description */
+#intro {
+    /* Declares font, aligns text to center of the page */
+    font-family: 'Bebas Neue';
+    text-align: center;
+    /* Declares div as a grid of flex boxes, stacked vertically, justified to the center of the page */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Ruleset for div containing headshot */
 #headshotp {
-    /* Offsets the position of the div containing headshot by 10px down from the top of its default position */
+    /* Offsets the position of the div by 10px down from the top of its default position */
     position: relative;
     top: 10px;
     /* Declares div a grid of flexboxes, justifies all boxes to the center of the page */
@@ -40,16 +52,7 @@ html {
     width: 15%;
 }
 
-#intro {
-    /* Declares font, aligns text to center of the page */
-    font-family: 'Bebas Neue';
-    text-align: center;
-    /* Declares intro div as a grid of flex boxes, stacked vertically, justified to the center of the page */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
+/* Ruleset for name */
 #name {
     color: #A01C20;
     /* Offsets name 20px down from its default position */
@@ -57,28 +60,38 @@ html {
     top: 20px;
 }
 
+/* Ruleset for short description of self under name */
 #description {
     color: #A23295;
+    /* Offsets description box 10px up from static position */
     position: relative;
     bottom: 10px;
 }
 
+/* Ruleset for header cntaining word "Biography" */
 #bioh {
+    /* Sets font to Bebas Neue 18px, sans serif backup font */
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
     color: #FFFFFF;
     background-color: #6F0010AA;
+    /* Aligns text to the left of the container */
     text-align: left;
+    /* Sets witdh of bio header to 68% of the width of the page, and 1% padding on all sides */
     width: 68%;
     padding: 1%;
+    /* Rounds the edges of the borders */
     border-radius: 10px;
+    /* Sets position down 20px, 15% of the width of the page from the left of its static position */
     position: relative;
     top: 20px;
-    left: 15%;
+    left: 15%; /* 15% offset, 68% width and 1% padding on each side centers box on page */
+    /* Sets display style to flex; vertically aligns all content to center of the container */
     display: flex;
     justify-content: center;
 }
 
+/* Ruleset for box containing biography text */
 #bio {
     font-family: 'Crimson';
     color: #FFFFFF;
