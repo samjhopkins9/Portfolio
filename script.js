@@ -71,7 +71,7 @@ let Project = (projlink, projname, projdesc, projid) => {
 
 let projects = [
     Project('REDWAVE./songs.html', 'REDWAVE.',
-            "Current EDM production/DJing project. I have completed 11 songs for this project so far, with more underway, and plan on beginning to release in 2023. My unreleased songs can be listened to by clicking on the link above.", 'redwave'),
+            "Current EDM production/DJing project.", 'redwave'),
     Project("https://github.com/samjhopkins9/DJ-File-Tool", "File Copier/Organizer/Searcher for DJs (Shell & Python)",
             "This tool is meant to help DJs keep up with the organization of a large database of songs. It contains two components. The organizer component loops through a folder of downloaded song files, checking all nested folders, and copies all files of a specified type into a single unorganized folder. Then, for each song, asks the user which folder(s) they would like it to, copies it into the specified folder(s), and deletes it from the unorganized folder. The searcher component looks through a spreadsheet of songs, inputted by the user, and automatically opens an Amazon tab searching for each one.", 'djtools'),
     Project('https://github.com/samjhopkins9/Stock-Motion-Model', 'Stock Motion Model (Python & Java)',
