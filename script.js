@@ -82,7 +82,7 @@ let projects = [
 ];
 
 function loadHTML(){
-    document.getElementById('headshotp').innerHTML = `<img src="headshot.jpeg" id="headshot"></img>`;
+    document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
     document.getElementById('description').innerHTML = `${degreetype} in ${degreename} at ${university}`;

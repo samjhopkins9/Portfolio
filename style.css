@@ -42,14 +42,16 @@ html {
     /* Offsets the position of the div by 10px down from the top of its default position */
     position: relative;
     top: 10px;
+    
     /* Declares div a grid of flexboxes, justifies all boxes to the center of the page */
     display: flex;
     justify-content: center;
 }
 
-/* Declares default width of headshot as 15% of its parent container */
+/* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
     width: 15%;
+    border-radius: 15px;
 }
 
 /* Ruleset for name */
