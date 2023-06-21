@@ -50,12 +50,13 @@ html {
 
 /* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
-    width: 15%;
+    width: 12%;
     border-radius: 15px;
 }
 
 /* Ruleset for name */
 #name {
+    font-family: "tinos";
     color: #FFF;
     /* Offsets name 20px down from its default position */
     position: relative;
@@ -64,6 +65,7 @@ html {
 
 /* Ruleset for short description of self under name */
 #description {
+    font-family: "tinos";
     color: #FFF;
     /* Offsets description box 10px up from static position */
     position: relative;
@@ -97,7 +99,7 @@ html {
 #bio {
     font-family: 'Crimson';
     color: #FFFFFF;
-    background-color: #6F0010AA;
+    background-color: #6F0010dd;
     text-align: left;
     width: 68%;
     border-radius: 10px;
