@@ -263,25 +263,36 @@ footer {
 }
 
 @media only screen and (max-width: 1000px){
+    html {
+        zoom: 150%;
+    }
+    
     header {
         
         display: flex;
         flex-direction: column;
         align-items: center;
         
+        
     }
     
     #headshot {
         width: 50%;
     }
-    main {
-    	zoom: 120%;
-    }
+    
     
     #sections {
         
         position: relative;
-        right: 10%;
+        left: 1%;
+        
+        
+    }
+    
+    .section {
+        
+        padding-left: 10%;
+        padding-right: 10%;
         
     }
     
