@@ -264,7 +264,7 @@ footer {
 
 @media only screen and (max-width: 1000px){
     html {
-        zoom: 150%;
+        zoom: 120%;
     }
     
     header {
