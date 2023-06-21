@@ -28,7 +28,7 @@ html {
 
 body {
     
-    background-color: #6612;
+    background-color: #6610;
     
 }
 
@@ -83,8 +83,8 @@ body {
     /* Sets font to Bebas Neue 18px, sans serif backup font */
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
-    color: #E1C120;
-    background-color: #6F0010AA;
+    color: #Eee;
+    background-color: #0F1020f0;
     /* Aligns text to the left of the container */
     text-align: left;
     /* Sets witdh of bio header to 68% of the width of the page, and 1% padding on all sides */
@@ -105,7 +105,7 @@ body {
 #bio {
     font-family: 'Crimson';
     color: #FFFFFF;
-    background-color: #6F0010dd;
+    background-color: #0F1020f0;
     text-align: left;
     width: 68%;
     border-radius: 10px;
@@ -118,7 +118,7 @@ body {
 
 h4 {
     line-height: 0.5;
-    color: #E1C120;
+    color: #eee;
     overflow: middle;
 }
 
@@ -137,16 +137,16 @@ li {
 }
 
 a:link {
-    color: #E1C120;
+    color: #a19120;
     transition: 0.2s;
 }
 
 a:visited {
-    color: #DDAAEE;
+    color: #999;
 }
 
 a:hover {
-    color: #002080AA;
+    color: #058a;
     text-decoration: none;
     transition: 0.2s;
 }
@@ -175,7 +175,7 @@ a:hover {
     font-family: 'Bebas Neue', sans-serif;
     color: #000000;
     font-size: 18px;
-    background-color: #AA2030D1;
+    background-color: #032030D1;
     text-align: top;
     width: 68%;
     padding: 1%;
@@ -190,19 +190,19 @@ a:hover {
 }
 
 #experience{
-    background-color: #991100aa;
+    background-color: #001127;
 }
 
 #education {
-    background-color: #770011aa;
+    background-color: #001123f0;
 }
 
 #courses {
-    background-color: #551100aa;
+    background-color: #001120e0;
 }
 
 #skills {
-    background-color: #330011aa;
+    background-color: #001116d0;
 }
 
 .jobdesc {
