@@ -36,6 +36,10 @@ header {
     
     display: flex;
     flex-direction: row;
+    width: 68%;
+    padding: 1%;
+    position: relative;
+    left: 15%;
     
 }
 
@@ -45,11 +49,11 @@ header {
     flex-direction: column;
     
     position: relative;
-    left: 9%;
+    left: 0%;
     padding-right: 3%;
     
     position: relative;
-    top: 35px;
+    top: 25px;
     
 }
 
@@ -57,7 +61,7 @@ header {
     
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
 }
 
 /* Ruleset for intro div containing headshot, name and description */
@@ -77,7 +81,7 @@ header {
 #headshotp {
     /* Offsets the position of the div by 10px down from the top of its default position */
     position: relative;
-    top: 10px;
+    top: 30px;
     
     /* Declares div a grid of flexboxes, justifies all boxes to the center of the page */
     display: flex;
@@ -87,7 +91,7 @@ header {
 /* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
     border-radius: 15px;
-    width: 70%;
+    width: 85%;
 }
 
 /* Ruleset for name */
@@ -96,7 +100,7 @@ header {
     color: #FFF;
     /* Offsets name 20px down from its default position */
     position: relative;
-    top: 20px;
+    top: 40px;
 }
 
 /* Ruleset for short description of self under name */
@@ -105,7 +109,7 @@ header {
     color: #FFF;
     /* Offsets description box 10px up from static position */
     position: relative;
-    bottom: 10px;
+    top: 30px;
 }
 
 /* Ruleset for header cntaining word "Biography" */
@@ -117,15 +121,13 @@ header {
     background-color: #0F1020f0;
     /* Aligns text to the left of the container */
     text-align: left;
-    /* Sets witdh of bio header to 68% of the width of the page, and 1% padding on all sides */
-    width: 68%;
+    /* Sets 1% padding on all sides */
     padding: 1%;
     /* Rounds the edges of the borders */
     border-radius: 10px;
     /* Sets position down 20px, 15% of the width of the page from the left of its static position */
     position: relative;
-    top: 35px;
-    left: 15%; /* 15% offset, 68% width and 1% padding on each side centers box on page */
+    top: 30px;
     /* Sets display style to flex; vertically aligns all content to center of the container */
     display: flex;
     justify-content: center;
@@ -137,11 +139,9 @@ header {
     color: #FFFFFF;
     background-color: #0F1020f0;
     text-align: left;
-    width: 68%;
     border-radius: 10px;
     padding: 1%;
     position: relative;
-    left: 15%;
     display: flex;
     justify-content: flex-begin;
 }
