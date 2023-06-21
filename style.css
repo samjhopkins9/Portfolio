@@ -56,7 +56,7 @@ html {
 
 /* Ruleset for name */
 #name {
-    color: #A01C20;
+    color: #FFF;
     /* Offsets name 20px down from its default position */
     position: relative;
     top: 20px;
@@ -64,7 +64,7 @@ html {
 
 /* Ruleset for short description of self under name */
 #description {
-    color: #A23295;
+    color: #FFF;
     /* Offsets description box 10px up from static position */
     position: relative;
     bottom: 10px;
@@ -75,7 +75,7 @@ html {
     /* Sets font to Bebas Neue 18px, sans serif backup font */
     font-family: 'Bebas Neue', sans-serif;
     font-size: 18px;
-    color: #FFFFFF;
+    color: #E1C120;
     background-color: #6F0010AA;
     /* Aligns text to the left of the container */
     text-align: left;
@@ -182,19 +182,19 @@ a:hover {
 }
 
 #experience{
-    background-color: #D37020D1;
+    background-color: #991100aa;
 }
 
 #education {
-    background-color: #4080EED1;
+    background-color: #770011aa;
 }
 
 #courses {
-    background-color: #809A7FD1;
+    background-color: #551100aa;
 }
 
 #skills {
-    background-color: #9030FED1;
+    background-color: #330011aa;
 }
 
 .jobdesc {
