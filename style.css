@@ -32,6 +32,34 @@ body {
     
 }
 
+header {
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+
+#photo_caption {
+    
+    display: flex;
+    flex-direction: column;
+    
+    position: relative;
+    left: 9%;
+    padding-right: 3%;
+    
+    position: relative;
+    top: 35px;
+    
+}
+
+#biopar {
+    
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
 /* Ruleset for intro div containing headshot, name and description */
 #intro {
     /* Declares font, aligns text to center of the page */
@@ -42,6 +70,8 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 /* Ruleset for div containing headshot */
 #headshotp {
@@ -56,8 +86,8 @@ body {
 
 /* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
-    width: 12%;
     border-radius: 15px;
+    width: 70%;
 }
 
 /* Ruleset for name */
@@ -94,7 +124,7 @@ body {
     border-radius: 10px;
     /* Sets position down 20px, 15% of the width of the page from the left of its static position */
     position: relative;
-    top: 20px;
+    top: 35px;
     left: 15%; /* 15% offset, 68% width and 1% padding on each side centers box on page */
     /* Sets display style to flex; vertically aligns all content to center of the container */
     display: flex;
@@ -233,6 +263,14 @@ footer {
 }
 
 @media only screen and (max-width: 700px){
+    header {
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
     #headshot {
         width: 50%;
     }
