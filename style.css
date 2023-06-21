@@ -26,6 +26,12 @@ html {
     background-color: #000000;
 }
 
+body {
+    
+    background-color: #6612;
+    
+}
+
 /* Ruleset for intro div containing headshot, name and description */
 #intro {
     /* Declares font, aligns text to center of the page */
