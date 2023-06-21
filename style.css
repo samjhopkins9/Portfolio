@@ -277,4 +277,17 @@ footer {
     main {
     	zoom: 120%;
     }
+    
+    #sections {
+        
+        position: relative;
+        right: 10%;
+        
+    }
+    
+    #projects {
+        
+        padding-right: 4%;
+        
+    }
 }
