@@ -122,7 +122,7 @@ header {
     /* Aligns text to the left of the container */
     text-align: left;
     /* Sets 1% padding on all sides */
-    padding: 1%;
+    padding: 2%;
     /* Rounds the edges of the borders */
     border-radius: 10px;
     /* Sets position down 20px, 15% of the width of the page from the left of its static position */
@@ -140,7 +140,7 @@ header {
     background-color: #0F1020f0;
     text-align: left;
     border-radius: 10px;
-    padding: 1%;
+    padding: 2%;
     position: relative;
     display: flex;
     justify-content: flex-begin;
