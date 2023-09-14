@@ -1,3 +1,42 @@
+let Job = (position, employer, location, jobdescription, hours_week, months_worked) => {
+    return {
+        position,
+        employer,
+        location,
+        jobdescription,
+        hours_week,
+        months_worked
+    }
+}
+
+let School = (school, location, timedescription) => {
+    return {
+        school,
+        location,
+        timedescription
+    }
+}
+
+let Course = (certificate, coursename, coursesite) => {
+    return {
+        certificate,
+        coursename,
+        coursesite
+    }
+}
+
+let Project = (projlink, projname, projdesc, projid) => {
+    return {
+        projlink,
+        projname,
+        projdesc,
+        projid
+    }
+}
+
+document.querySelector("html").style.backgroundImage = "url(background.jpeg)";
+
+
 let myname = "Sam Hopkins";
 let degreetype = "BS";
 let degreename = "Computer Science";
@@ -12,16 +51,6 @@ let bio = `Lifelong musician with a passion for programming. I am skilled in a d
 
 let skills = ['C++', 'Python', 'Java', 'Shell/Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Microsoft Excel', 'Ableton Live', 'Logic Pro X', 'Avid Pro Tools', 'DJing', 'Drums', 'Spanish', 'Customer Service'];
 
-let Job = (position, employer, location, jobdescription, hours_week, months_worked) => {
-    return {
-        position,
-        employer,
-        location,
-        jobdescription,
-        hours_week,
-        months_worked
-    }
-}
 let jobs = [
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
         "Bussed tables, ran food, and washed dishes in a fast-paced seasonal dockside restaurant in Pemaquid, ME.",
@@ -31,25 +60,10 @@ let jobs = [
         "15-25", "June-August 2020/2021, June-July 2022")
 ];
 
-let School = (school, location, timedescription) => {
-    return {
-        school,
-        location,
-        timedescription
-    }
-}
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
     School("University of Miami", "Coral Gables, FL", "BS in Computer Science, minors in Math, Music Business and Music. Zeta Beta Tau Fraternity.")
 ];
-
-let Course = (certificate, coursename, coursesite) => {
-    return {
-        certificate,
-        coursename,
-        coursesite
-    }
-}
 
 let courses = [
     Course('Certificates/C++.pdf', 'Learn C++', 'Codecademy'),
@@ -62,15 +76,6 @@ let courses = [
     Course('Certificates/HTML.pdf', 'Learn HTML', 'Codecademy'),
     Course('Certificates/CSS.pdf', 'Learn CSS', 'Codecademy')
 ];
-
-let Project = (projlink, projname, projdesc, projid) => {
-    return {
-        projlink,
-        projname,
-        projdesc,
-        projid
-    }
-}
 
 let projects = [
     Project("https://samjhopkins9.github.io/Trading-Interface/", "Trading Interface and Black-Scholes Options Price Calculator (JavaScript/HTML/CSS)",

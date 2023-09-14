@@ -22,7 +22,6 @@
 /* Applies serif font, a background color of black, and a background image titled 'background.jpeg' within the current directory */
 html {
     font-family: serif;
-    background-image: url('background.jpeg');
     background-color: #000000;
 }
 
