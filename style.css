@@ -91,7 +91,7 @@ header {
 /* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
     border-radius: 15px;
-    width: 85%;
+    width: 40%;
 }
 
 /* Ruleset for name */
@@ -127,6 +127,8 @@ header {
     border-radius: 10px;
     /* Sets position down 20px, 15% of the width of the page from the left of its static position */
     position: relative;
+    right: 22%;
+    width: 120%;
     top: 30px;
     /* Sets display style to flex; vertically aligns all content to center of the container */
     display: flex;
@@ -142,6 +144,8 @@ header {
     border-radius: 10px;
     padding: 2%;
     position: relative;
+    right: 22%;
+    width: 120%;
     display: flex;
     justify-content: flex-begin;
 }
