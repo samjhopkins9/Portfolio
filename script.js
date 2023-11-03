@@ -67,13 +67,15 @@ let schools = [
 
 let courses = [
     Course('Certificates/C++.pdf', 'Learn C++', 'Codecademy'),
-    Course('Certificates/C++_for_programmers.pdf', 'C++ for Programmers', 'Codecademy'),
+    Course('Certificates/C++2.pdf', 'C++ for Programmers', 'Codecademy'),
     Course('Certificates/Python.pdf', 'Learn Python', 'Codecademy'),
-    Course('Certificates/Command_Line.pdf', 'Learn the Command Line', 'Codecademy'),
-    Course('Certificates/Bash_Scripting.pdf', 'Learn Bash Scripting', 'Codecademy'),
-    Course('Certificates/JavaScript.pdf', 'Learn JavaScript', 'Codecademy'),
+    Course('Certificates/CommandLine.pdf', 'Learn the Command Line', 'Codecademy'),
+    Course('Certificates/BashScripting.pdf', 'Learn Bash Scripting', 'Codecademy'),
+    Course('Certificates/JS.pdf', 'Learn JavaScript', 'Codecademy'),
     Course('Certificates/HTML.pdf', 'Learn HTML', 'Codecademy'),
     Course('Certificates/CSS.pdf', 'Learn CSS', 'Codecademy'),
+    Course('Certificates/ResponsiveDesign.pdf', 'Learn CSS: Responsive Design', 'Codecademy'),
+    Course('Certificates/NavigationDesign.pdf', 'Learn Navigation Design', 'Codecademy'),
     Course('Certificates/Swift.pdf', 'Learn Swift', 'Codecademy')
 ];
 
