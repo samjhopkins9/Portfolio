@@ -39,12 +39,12 @@ document.querySelector("html").style.backgroundImage = "url(background.jpeg)";
 
 let myname = "Sam Hopkins";
 let degreetype = "BS";
-let degreename = "Computer Science";
+let degreename = "Data Science & AI";
 let university = "University of Miami";
 let email = "samjhopkins9@gmail.com";
 let phonenumber = "415-480-9033";
 let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
-let bio = `Lifelong musician with a passion for programming. I am skilled in a diverse set of programming languages including C++, Python, Java, JavaScript, Bash, Swift, HTML and CSS. My interests include dataset management, web development and sound design.
+let bio = `Lifelong musician with a passion for programming. I am skilled in a diverse set of programming languages including C++, Python, Java, JavaScript, Bash, Swift, HTML and CSS. My interests include data analytics, machine learning, platform development and sound design.
     <br>
     <br>
     I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Computer Science and minors in Math, Music Business and Music, with an expected graduation of May 2025. I spent my first two years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I have been writing and producing original music since I was 12 and playing the drums since I was 4, so I entered the Frost School of Music with hopes of turning these passions into careers. I learned to code the summer after my Sophomore year of college in order to work on an algorithm for modeling the motion of stocks (another interest of mine) and performing operations on data, and absolutely fell in love with programming beyond the scope of just that one project. I made this website. I wrote a bash script that interfaces with python that allows me to organize my song files for DJing from terminal. I wrote simple swift scripts to track my assignments, to-dos and workouts, among other smaller programs. I switched my major to computer science during the Fall of 2022 when I realized that the idea of having a job in software engineering, and cultivating my knowledge of it as much as possible, was extremely appealing to me. Music will forever be a passion for me, but my newfound passion for code has been extremely exciting for me as of late and I would love nothing more than to spend all day at work writing programs. I want to be a software engineer because I want to be paid to do something I love, to work with others on larger, more detailed projects than those I can do by myself, and to be in an environment where I can always keep learning more about computers and code.`;
@@ -62,19 +62,19 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "BS in Computer Science, minors in Math, Music Business and Music. Zeta Beta Tau Fraternity.")
+    School("University of Miami", "Coral Gables, FL", "BS in Data Science & Artificial Intelligence, minors in Math and Music. Zeta Beta Tau Fraternity.")
 ];
 
 let courses = [
     Course('Certificates/C++.pdf', 'Learn C++', 'Codecademy'),
     Course('Certificates/C++_for_programmers.pdf', 'C++ for Programmers', 'Codecademy'),
     Course('Certificates/Python.pdf', 'Learn Python', 'Codecademy'),
-    Course('Certificates/Swift.pdf', 'Learn Swift', 'Codecademy'),
-    Course('Certificates/JavaScript.pdf', 'Learn JavaScript', 'Codecademy'),
     Course('Certificates/Command_Line.pdf', 'Learn the Command Line', 'Codecademy'),
     Course('Certificates/Bash_Scripting.pdf', 'Learn Bash Scripting', 'Codecademy'),
+    Course('Certificates/JavaScript.pdf', 'Learn JavaScript', 'Codecademy'),
     Course('Certificates/HTML.pdf', 'Learn HTML', 'Codecademy'),
-    Course('Certificates/CSS.pdf', 'Learn CSS', 'Codecademy')
+    Course('Certificates/CSS.pdf', 'Learn CSS', 'Codecademy'),
+    Course('Certificates/Swift.pdf', 'Learn Swift', 'Codecademy')
 ];
 
 let projects = [
