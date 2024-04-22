@@ -60,7 +60,9 @@ header {
     
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 55%;
+    position: relative;
+    left: 11%;
 }
 
 /* Ruleset for intro div containing headshot, name and description */
@@ -90,7 +92,7 @@ header {
 /* Declares default width of headshot as 15% of its parent container, slightly rounds the corners of the image */
 #headshot {
     border-radius: 15px;
-    width: 40%;
+    width: 70%;
 }
 
 /* Ruleset for name */
@@ -108,7 +110,6 @@ header {
     color: #FFF;
     /* Offsets description box 10px up from static position */
     position: relative;
-    top: 30px;
 }
 
 /* Ruleset for header cntaining word "Biography" */
@@ -283,6 +284,11 @@ footer {
         width: 50%;
     }
     
+    #biopar {
+        
+        align-items: center;
+        
+    }
     
     #sections {
         

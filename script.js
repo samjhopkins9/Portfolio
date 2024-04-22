@@ -25,12 +25,13 @@ let Course = (certificate, coursename, coursesite) => {
     }
 }
 
-let Project = (projlink, projname, projdesc, projid) => {
+let Project = (projlink, projname, projdesc, projid, projseas) => {
     return {
         projlink,
         projname,
         projdesc,
-        projid
+        projid,
+        projseas
     }
 }
 
@@ -44,12 +45,14 @@ let university = "University of Miami";
 let email = "samjhopkins9@gmail.com";
 let phonenumber = "415-480-9033";
 let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
-let bio = `Lifelong musician with a passion for programming. I am skilled in a diverse set of programming languages including C++, Python, Java, JavaScript, Bash, Swift, HTML and CSS. My interests include data analytics, machine learning, platform development and sound design.
+let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include data analytics, machine learning, audio software development and sound design.
     <br>
     <br>
-    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Computer Science and minors in Math, Music Business and Music, with an expected graduation of May 2025. I spent my first two years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I have been writing and producing original music since I was 12 and playing the drums since I was 4, so I entered the Frost School of Music with hopes of turning these passions into careers. I learned to code the summer after my Sophomore year of college in order to work on an algorithm for modeling the motion of stocks (another interest of mine) and performing operations on data, and absolutely fell in love with programming beyond the scope of just that one project. I made this website. I wrote a bash script that interfaces with python that allows me to organize my song files for DJing from terminal. I wrote simple swift scripts to track my assignments, to-dos and workouts, among other smaller programs. I switched my major to computer science during the Fall of 2022 when I realized that the idea of having a job in software engineering, and cultivating my knowledge of it as much as possible, was extremely appealing to me. Music will forever be a passion for me, but my newfound passion for code has been extremely exciting for me as of late and I would love nothing more than to spend all day at work writing programs. I want to be a software engineer because I want to be paid to do something I love, to work with others on larger, more detailed projects than those I can do by myself, and to be in an environment where I can always keep learning more about computers and code.`;
+    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Data Science and Artificial Intelligence with minors in Math and Music, and am seeking an internship in Data Analytics for summer of 2024.
+    <br>
+    I spent my first two and a half years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I decided to change my course after I learned to code via online courses during the summer of 2022 and quickly found myself immersed in it and driven to learn as much as I could. I have realized that the aspects of computer science that appeal to me the most are the data-driven ones. I would be happy in any position where I can gather, inspect, clean, crunch, and interpret data. `;
 
-let skills = ['C++', 'Python', 'Java', 'Shell/Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Statistics', 'Quantitative Finance', 'Microsoft Excel', 'Ableton Live', 'Logic Pro X', 'Avid Pro Tools', 'DJing', 'Drums', 'Spanish', 'Customer Service'];
+let skills = ['Python', 'R', 'C++', 'Java', 'Bash Scripting', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Statistics', 'Quantitative Finance', 'Microsoft Excel', 'Ableton Live', 'Logic Pro X', 'Avid Pro Tools', 'DJing', 'Drums', 'Spanish', 'Customer Service'];
 
 let jobs = [
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
@@ -57,12 +60,18 @@ let jobs = [
         "15-25", "June-August 2018"),
     Job("Host/Busser", "The Cantina", "Mill Valley, CA",
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
-        "15-25", "June-August 2020/2021, June-July 2022")
+        "15-25", "June-August 2020/2021, June-July 2022"),
+    Job("Music Producer", "Self-employed", "Ongoing",
+        "Writer and producer of electronic music, working under the name REDWAVE. I have released two 4-song EPs so far this year. I released 4 singles and a 4-song EP under the name Blue Heights in 2020, and before that released 3 songs under the name SMJH.",
+        "", ""),
+    Job("Computer Programmer", "Self-employed", "Ongoing",
+        "Completed several self-directed projects, including: A Black-Scholes-based option price calculator with an attached chart section and market newsfeed, within an html-based UI; a random forest-based regression model to predict salaries; a classifier for written characters; and a classifier of real/fake banknotes.",
+        "", "")
 ];
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "BS in Data Science & Artificial Intelligence, minors in Math and Music. Zeta Beta Tau Fraternity.")
+    School("University of Miami", "Coral Gables, FL", "BS in Data Science & Artificial Intelligence, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
 ];
 
 let courses = [
@@ -80,22 +89,22 @@ let courses = [
 ];
 
 let projects = [
-    Project("https://samjhopkins9.github.io/Trading-Interface/", "Trading Interface and Black-Scholes Options Price Calculator (JavaScript/HTML/CSS)",
-            "This page displays news, some simple charts, and some basic information pertaining to a volatility of the given stock or ETF using minutely data over the last 2 weeks. It also uses the Black-Scholes formula to calculate the intrinsic price of options contracts at the underlying symbol's current price and plus or minus a certain amount after a specified amount of time decay (in minutes), with all other variables held equal. This model was largely created for the purpose of calculating fluctuations in high-volume daily contracts on ETFs.", 'interface'),
-    Project('https://samjhopkins9.github.io/REDWAVE./', 'REDWAVE.',
-            "Current EDM production project.", 'redwave'),
-    Project("https://github.com/samjhopkins9/DJ-File-Tool", "File Copier/Organizer/Searcher for DJs (Shell/Python)",
-            "This tool is meant to help DJs keep up with the organization of a large database of songs. It contains two components. The organizer component loops through a folder of downloaded song files, checking all nested folders, and copies all files of a specified type into a single unorganized folder. Then, for each song, asks the user which folder(s) they would like it to, copies it into the specified folder(s), and deletes it from the unorganized folder. The searcher component looks through a spreadsheet of songs, inputted by the user, and automatically opens an Amazon tab searching for each one.", 'djtools'),
-    Project('https://github.com/samjhopkins9/Stock-Motion-Model', 'Stock Motion Model (Python/Java)',
-            "This program is meant to visually and numerically illustrate the randomness of the movements in stock prices. It contains two components. The chart model portion, written in Python, attempts to model the intra-day, week, and month movements in stock prices based on the \"Random Walk\" theory, which hypothesizes that the movement of stocks throughout days, weeks and months is completely random -- subject to the random events of the world, that is, to which the professionals and the market as a whole respond so quickly. The data crunching portion of this program, written in Java, reads quotes data for a financial security from a .txt file and outputs a cleanly formatted version of the dates/times, closing prices, change, and several technical indicators, line-by-line. The movement of an S&P500 ETF and a set of fake quotes resulting from a randomly generated motion over many hypothetical trading periods, created by this program's complementary python component, are compared. The purpose is to illustrate the similarity in the movement of the stock market as a whole and a completely randomly generated motion, especially the technical indicators applied to them. Attempting to draw immediate conclusions about the next movement of the market based on the values of oscillators like ROC, MACD and RSI being high or low, or having been high or low for some period of time, is equally as effective as attempting to do so for the randomly generated movement.", 'quant'),
-    Project('https://open.spotify.com/artist/3NaStpwKZfkncUveomQEIq', "Blue Heights",
-            "Released a 4-track EP and 4 self-written, produced and engineered singles under the name Blue Heights.", 'blue'),
-    Project('https://www.youtube.com/watch?v=dembujuTyI4', "Spacegoat", "Contemporary jazz and neo-soul band of which I was the drummer during my junior year at Marin Academy. We recorded this video for the Marin Independent Journal in February 2019, and played in the showcase of their selection of Marin County's best high school musicians in April of that same year.", 'space')
+    Project('https://whoisredwave.com', 'REDWAVE.',
+            "Current EDM production/DJing project.", 'redwave', "Ongoing"),
+    Project("https://samjhopkins9.github.io/SalaryModel_RF/", "Regression Model for Predicting Salary (R)",
+            "This project uses a dataset downloaded from Kaggle to create a regression model to predict an individual's salary based on their age, years of experience, education level, and gender.", "salarymodel", "Spring 2024"),
+    Project("https://samjhopkins9.github.io/Options-Calculator-Market-Newsfeed", "Black-Scholes Options Price Calculator & Market Newsfeed (JavaScript/HTML/CSS)",
+            "This page displays news, some simple charts, and some basic information pertaining to a volatility of the given stock or ETF using minutely data over the last 2 weeks. It also uses the Black-Scholes formula to calculate the price of short-term options contracts with strike prices near the underlying, at various levels of implied volatility, with time decay measured after a certain amount of minutes, and the underlying price taken at three points: its current price, plus, and minus a specified percentage movement. This was largely created for the purpose of calculating fluctuations in high-volume daily contracts on ETFs.", 'interface', "Summer 2023"),
+    Project("https://samjhopkins9.github.io/Character-Classifier/", "Image Classifier for Written Characters (Python)",
+            "This project uses mnist data from python's scikit-learn module to create a model which identifies images of written characters a-z and 0-9.", "imagemodel", "Spring 2024"),
+    Project("https://samjhopkins9.github.io/Banknote-Classifier/", "Classifier for Real/Fake Banknotes (Python)",
+            "This project uses .csv data to classify banknotes as real or fake based on several given attributes.", "notemodel", "Spring 2024"),
+    Project('https://www.youtube.com/watch?v=dembujuTyI4', "Spacegoat", "Contemporary jazz and neo-soul band of which I was the drummer during my junior year at Marin Academy. We recorded this video for the Marin Independent Journal in February 2019, and played in the showcase of their selection of Marin County's best high school musicians in April of that same year.", 'space', "Fall 2018 - Spring 2019")
     
 ];
 
 function loadHTML(){
-    document.getElementById('headshotp').innerHTML = `<img src="headshot3.jpeg" id="headshot"></img>`;
+    document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
     document.getElementById('description').innerHTML = `${degreetype} in ${degreename} at ${university}`;
@@ -130,7 +139,8 @@ function loadHTML(){
     
     let projectshtml = "";
     for (let i=0; i<projects.length; i++){
-        projectshtml += `<li id="${projects[i].projid}"><a href='${projects[i].projlink}' target='_blank')>${projects[i].projname}</a></li>
+        projectshtml += `<li id="${projects[i].projid}"><a href='${projects[i].projlink}' target='_blank'>${projects[i].projname}</a></li>
+                            <p>${projects[i].projseas}</p>
                             <p class="jobdesc">${projects[i].projdesc}</p>`;
     }
     document.getElementById('projectslist').innerHTML = projectshtml;
