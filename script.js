@@ -52,7 +52,7 @@ let bio = `Lifelong musician with a passion for programming and data analysis. I
     <br>
     I spent my first two and a half years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I decided to change my course after I learned to code via online courses during the summer of 2022 and quickly found myself immersed in it and driven to learn as much as I could. I have realized that the aspects of computer science that appeal to me the most are the data-driven ones. I would be happy in any position where I can gather, inspect, clean, crunch, and interpret data. `;
 
-let skills = ['Python', 'R', 'C++', 'Java', 'Bash Scripting', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Statistics', 'Quantitative Finance', 'Microsoft Excel', 'Ableton Live', 'Logic Pro X', 'Avid Pro Tools', 'DJing', 'Drums', 'Spanish', 'Customer Service'];
+let skills = ['Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel', 'Ableton Live', 'DJing', 'Drums', 'Logic Pro X', 'Avid Pro Tools', 'Spanish', 'Customer Service'];
 
 let jobs = [
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
@@ -90,16 +90,19 @@ let courses = [
 
 let projects = [
     Project('https://whoisredwave.com', 'REDWAVE.',
-            "Current EDM production/DJing project.", 'redwave', "Ongoing"),
+    "Current EDM production/DJing project.", 'redwave', "September 2023 - Present"),
+
     Project("https://samjhopkins9.github.io/SalaryModel_RF/", "Regression Model for Predicting Salary (R)",
-            "This project uses a dataset downloaded from Kaggle to create a regression model to predict an individual's salary based on their age, years of experience, education level, and gender.", "salarymodel", "Spring 2024"),
-    Project("https://samjhopkins9.github.io/Options-Calculator-Market-Newsfeed", "Black-Scholes Options Price Calculator & Market Newsfeed (JavaScript/HTML/CSS)",
-            "This page displays news, some simple charts, and some basic information pertaining to a volatility of the given stock or ETF using minutely data over the last 2 weeks. It also uses the Black-Scholes formula to calculate the price of short-term options contracts with strike prices near the underlying, at various levels of implied volatility, with time decay measured after a certain amount of minutes, and the underlying price taken at three points: its current price, plus, and minus a specified percentage movement. This was largely created for the purpose of calculating fluctuations in high-volume daily contracts on ETFs.", 'interface', "Summer 2023"),
+            "This project uses a dataset downloaded from Kaggle to create a regression model to predict an individual's salary based on their age, years of experience, education level, and gender.", "salarymodel", "February 2024 - Present"),
     Project("https://samjhopkins9.github.io/Character-Classifier/", "Image Classifier for Written Characters (Python)",
-            "This project uses mnist data from python's scikit-learn module to create a model which identifies images of written characters a-z and 0-9.", "imagemodel", "Spring 2024"),
+            "This project uses mnist data from python's scikit-learn module to create a model which identifies images of written characters a-z and 0-9.", "imagemodel", "March 2024"),
     Project("https://samjhopkins9.github.io/Banknote-Classifier/", "Classifier for Real/Fake Banknotes (Python)",
-            "This project uses .csv data to classify banknotes as real or fake based on several given attributes.", "notemodel", "Spring 2024"),
-    Project('https://www.youtube.com/watch?v=dembujuTyI4', "Spacegoat", "Contemporary jazz and neo-soul band of which I was the drummer during my junior year at Marin Academy. We recorded this video for the Marin Independent Journal in February 2019, and played in the showcase of their selection of Marin County's best high school musicians in April of that same year.", 'space', "Fall 2018 - Spring 2019")
+            
+            "This project uses .csv data to classify banknotes as real or fake based on several given attributes.", "notemodel", "March 2024"),
+    Project("https://samjhopkins9.github.io/Options-Calculator-Market-Newsfeed", "Black-Scholes Options Price Calculator & Market Newsfeed (JavaScript/HTML/CSS)",
+            "This page displays news, some simple charts, and some basic information pertaining to a volatility of the given stock or ETF using minutely data over the last 2 weeks. It also uses the Black-Scholes formula to calculate the price of short-term options contracts with strike prices near the underlying, at various levels of implied volatility, with time decay measured after a certain amount of minutes, and the underlying price taken at three points: its current price, plus, and minus a specified percentage movement. This was largely created for the purpose of calculating fluctuations in high-volume daily contracts on ETFs.", 'interface', "July 2023"),
+    
+    Project('https://www.youtube.com/watch?v=dembujuTyI4', "Spacegoat", "Contemporary jazz and neo-soul band of which I was the drummer during my junior year at Marin Academy. We recorded this video for the Marin Independent Journal in February 2019, and played in the showcase of their selection of Marin County's best high school musicians in April of that same year.", 'space', "August 2018 - June 2019")
     
 ];
 
