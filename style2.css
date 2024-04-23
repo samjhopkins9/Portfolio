@@ -19,6 +19,13 @@
     src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    
+    font-family: "Academy";
+    src: url('Fonts/Academy Engraved LET Fonts.ttf') format('truetype');
+    
+}
+
 
 
 /* top-level */
@@ -180,6 +187,13 @@ main {
     
 }
 
+#edu_exp li, #projects li {
+    
+    font-family: "Academy";
+    font-size: 17px;
+    
+}
+
 
 /* footer */
 
@@ -211,9 +225,9 @@ footer {
         
     }
     
-    #bulletpoints ul {
+    #bulletpoints {
         
-        margin: 5px;
+        flex-flow: column;
         
     }
     
