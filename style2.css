@@ -243,4 +243,16 @@ footer {
         
     }
     
+    #musiclinks {
+        
+        flex-flow: column;
+        
+    }
+    
+    #musiclinks iframe {
+        
+        width: 100%;
+        
+    }
+    
 }
