@@ -1,0 +1,42 @@
+/* import fonts */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Tinos";
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Arsenal";
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
+}
+
+
+body {
+    
+    /* sizing and position */
+    width: 1100px;
+    display: relative;
+    position: 
+    
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    
+    
+    
+}

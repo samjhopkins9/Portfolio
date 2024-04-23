@@ -35,9 +35,7 @@ let Project = (projlink, projname, projdesc, projid, projseas) => {
     }
 }
 
-document.querySelector("html").style.backgroundImage = "url(background.jpeg)";
-
-
+// document.querySelector("html").style.backgroundImage = "url(background.jpeg)";
 let myname = "Sam Hopkins";
 let degreetype = "BS";
 let degreename = "Data Science & AI";
@@ -57,10 +55,10 @@ let skills = ['Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash
 let jobs = [
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
         "Bussed tables, ran food, and washed dishes in a fast-paced seasonal dockside restaurant in Pemaquid, ME.",
-        "15-25", "June-August 2018"),
+        "15-25 hours/week, ", "June-August 2018"),
     Job("Host/Busser", "The Cantina", "Mill Valley, CA",
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
-        "15-25", "June-August 2020/2021, June-July 2022"),
+        "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
     Job("Music Producer", "Self-employed", "Ongoing",
         "Writer and producer of electronic music, working under the name REDWAVE. I have released two 4-song EPs so far this year. I released 4 singles and a 4-song EP under the name Blue Heights in 2020, and before that released 3 songs under the name SMJH.",
         "", ""),
@@ -75,6 +73,14 @@ let schools = [
 ];
 
 let courses = [
+    Course('', 'Statistical Learning with Applications', 'University of Miami'),
+    Course('', 'Intro to Python for Scientists', 'University of Miami'),
+    Course('', 'Computer Programming II', 'University of Miami'),
+    Course('', 'Linear Algebra', 'University of Miami'),
+    Course('', 'Probability & Statistics', 'University of Miami'),
+    Course('', 'Discrete Mathematics', 'University of Miami'),
+    Course('', 'Calculus III', 'University of Miami'),
+    
     Course('Certificates/C++.pdf', 'Learn C++', 'Codecademy'),
     Course('Certificates/C++2.pdf', 'C++ for Programmers', 'Codecademy'),
     Course('Certificates/Python.pdf', 'Learn Python', 'Codecademy'),
@@ -107,7 +113,7 @@ let projects = [
 ];
 
 function loadHTML(){
-    document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
+    // document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
     document.getElementById('description').innerHTML = `${degreetype} in ${degreename} at ${university}`;
@@ -117,7 +123,7 @@ function loadHTML(){
     for (let i=jobs.length-1; i>=0; i--){
         jobshtml += `<li>${jobs[i].position} \@${jobs[i].employer}, ${jobs[i].location}</li>
                         <p class="jobdesc">${jobs[i].jobdescription}</p>
-                        <p class="timedesc">${jobs[i].hours_week} hours/week, ${jobs[i].months_worked}</p> \n`;
+                        <p class="timedesc">${jobs[i].hours_week} ${jobs[i].months_worked}</p> \n`;
     }
     document.getElementById('jobslist').innerHTML = jobshtml;
     
@@ -129,9 +135,16 @@ function loadHTML(){
     document.getElementById('schoolslist').innerHTML = schoolshtml;
     
     let courseshtml = "";
+    let certshtml = "";
     for (let i=0; i<courses.length; i++){
-        courseshtml += `<li><a href=${courses[i].certificate} target="_blank">${courses[i].coursename}</a> (${courses[i].coursesite})</li> \n`;
+        if (courses[i].certificate === ''){
+            courseshtml += `<li>${courses[i].coursename} (${courses[i].coursesite})</li> \n`;
+            continue;
+        } else {
+            certshtml += `<li><a href=${courses[i].certificate} target="_blank">${courses[i].coursename}</a> (${courses[i].coursesite})</li> \n`;
+        }
     }
+    document.getElementById('certslist').innerHTML = certshtml;
     document.getElementById('courseslist').innerHTML = courseshtml;
     
     let skillshtml = "";
@@ -153,4 +166,30 @@ function loadHTML(){
     document.getElementById('linkedin').innerHTML = `<a href="${linkedin}">Linkedin</a>`;
 }
 
+let sectionIDs = ["biopar", "edu_exp", "education", "experience", "bulletpoints", "skills", "certifications", "courses", "projects"];
+
+function loadSection(args){
+    for ( s of sectionIDs ){
+        if (args.includes(s)){
+            document.getElementById(s).style.display = "flex";
+        } else {
+            document.getElementById(s).style.display = "none";
+        }
+    }
+}
+
 loadHTML();
+document.getElementById("aboutbutton").addEventListener("click", function() {
+    loadSection(["biopar"]);
+});
+document.getElementById("edubutton").addEventListener("click", function(){
+    loadSection(["edu_exp", "education", "experience"]);
+});
+document.getElementById("skillbutton").addEventListener("click", function(){
+    loadSection(["bulletpoints", "skills", "certifications", "courses"]);
+});
+document.getElementById("projbutton").addEventListener("click", function(){
+    loadSection(["projects"]);
+});
+
+

@@ -1,0 +1,180 @@
+/* import fonts */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Tinos";
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Arsenal";
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
+}
+
+
+
+/* top-level */
+
+html {
+    
+    background-color: #000;
+    color: #eee;
+    font-family: "Arsenal"
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Bebas Neue";
+    text-align: center;
+    
+}
+
+a {
+    
+    color: #c14;
+    
+}
+
+a:hover {
+    
+    color: #41e;
+    transition: 0.2s;
+    
+}
+
+
+/* header */
+
+header {
+    background: linear-gradient(to bottom, #004, #902);
+
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/* nav bar */
+
+nav {
+    
+    background: linear-gradient(to bottom, #902, #000);
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+nav h3 {
+    
+    padding: 10px;
+    border: 3px groove #666;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+    color: #fff;
+    border-radius: 4px;
+    
+}
+
+nav h3:hover {
+    
+    cursor: pointer;
+    color: #c14;
+    border-color: #c14;
+    transition: 0.3s;
+    
+}
+
+
+
+/* main section */
+
+main {
+            
+    margin: 30px;
+    
+    display: flex;
+    flex-flow: column;
+
+}
+
+.section {
+    
+    width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    
+    display: none;
+    flex-flow: column;
+    
+}
+
+#biopar, #bio {
+    
+    display: flex;
+    
+}
+
+
+#bio {
+    
+    padding: 10px;
+    
+}
+
+#headshotp img {
+    
+    width: 100%;
+    
+}
+
+
+#biopar, #bulletpoints {
+    
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+#bulletpoints ul {
+    
+    margin: 0 auto;
+    
+}
+
+#bulletpoints div {
+    
+    padding: 10px;
+    
+}
+
+footer {
+        
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+
+
+@media only screen and (max-width: 1000px){
+    
+    
+    
+}
