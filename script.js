@@ -164,8 +164,8 @@ function loadHTML(){
     }
     document.getElementById('projectslist').innerHTML = projectshtml;
     
-    document.getElementById('email').innerHTML = `Email: ${email}`;
-    document.getElementById('phone').innerHTML = `Phone: ${phonenumber}`;
+    document.getElementById('email').innerHTML = `<a href=mailto:${email} target="_BLANK">${email}</a>`;
+    document.getElementById('phone').innerHTML = `${phonenumber}`;
     document.getElementById('linkedin').innerHTML = `<a href="${linkedin}">Linkedin</a>`;
 }
 
