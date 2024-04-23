@@ -103,12 +103,21 @@ nav h3:hover {
 
 /* main section */
 
+#main1 {
+    
+    background: linear-gradient(to bottom, #000, #001);
+    height: 100%;
+    
+}
+
 main {
             
     margin: 30px;
     
     display: flex;
     flex-flow: column;
+    
+    flex: 1;
 
 }
 
@@ -121,6 +130,7 @@ main {
     
     display: none;
     flex-flow: column;
+    
     
 }
 
@@ -163,7 +173,12 @@ main {
     
 }
 
+/* footer */
+
 footer {
+        
+        background: linear-gradient(to bottom, #001, #000);
+
         
     display: flex;
     flex-flow: column;
