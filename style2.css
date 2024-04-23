@@ -198,6 +198,14 @@ main {
     
 }
 
+#musiclinks {
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
 
 /* footer */
 
