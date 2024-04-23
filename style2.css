@@ -122,19 +122,20 @@ main {
 }
 
 .section {
-    
-    width: 75%;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0 auto;
-    
+        
     display: none;
     flex-flow: column;
     
     
 }
 
-#biopar, #bio {
+#biopar {
+        
+    width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    margin: 0 auto;
     
     display: flex;
     
@@ -154,7 +155,9 @@ main {
 }
 
 
-#biopar, #bulletpoints {
+#bulletpoints {
+    
+    margin: 0 auto;
     
     flex-flow: row;
     justify-content: center;
@@ -163,13 +166,17 @@ main {
 
 #bulletpoints ul {
     
-    margin: 0 auto;
+    margin: 15px;
     
 }
 
-#bulletpoints div {
+#edu_exp, #edu_exp h4, #projects, #projects h4 {
     
-    padding: 10px;
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    
+    align-items: flex-start;
     
 }
 
@@ -189,11 +196,19 @@ footer {
 
 
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1300px){
     
     nav h3 {
         
         font-size: 70%;
+        
+    }
+    
+    #edu_exp, #edu_exp div, #edu_exp h4, #projects, #projects h4 {
+        
+        width: 100%;
+        position: relative;
+        left: 0%;
         
     }
     
