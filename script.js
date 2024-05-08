@@ -98,7 +98,7 @@ let projects = [
     Project('https://whoisredwave.com', 'REDWAVE.',
     "Current EDM production/DJing project.", 'redwave', "September 2023 - Present"),
 
-    Project("https://samjhopkins9.github.io/SalaryModel_RF/", "Regression Model for Predicting Salary (R)",
+    Project("https://samjhopkins9.github.io/SalaryModel_RF/docs/Report.html", "Regression Model for Predicting Salary (R)",
             "This project uses a dataset downloaded from Kaggle to create a regression model to predict an individual's salary based on their age, years of experience, education level, and gender.", "salarymodel", "February 2024 - Present"),
     Project("https://samjhopkins9.github.io/Character-Classifier/", "Image Classifier for Written Characters (Python)",
             "This project uses mnist data from python's scikit-learn module to create a model which identifies images of written characters a-z and 0-9.", "imagemodel", "March 2024"),
