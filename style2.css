@@ -148,7 +148,7 @@ main {
     
     margin: 0 auto;
     
-    display: flex;
+    display: none;
     
 }
 
@@ -179,6 +179,11 @@ main {
     
     margin: 15px;
     
+}
+
+#projects {
+    
+    display: flex;
 }
 
 #edu_exp, #edu_exp h4, #projects, #projects h4 {
