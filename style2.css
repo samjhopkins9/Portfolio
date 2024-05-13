@@ -228,9 +228,15 @@ footer {
 
 @media only screen and (max-width: 1300px){
     
+    body {
+        
+        font-size: 120%;
+        
+    }
+    
     nav h3 {
         
-        font-size: 50%;
+        font-size: 150%;
         
     }
     
@@ -242,18 +248,12 @@ footer {
         
     }
     
-    #bulletpoints {
+    #bulletpoints, #musiclinks {
         
         flex-flow: column;
         
     }
-    
-    #musiclinks {
-        
-        flex-flow: column;
-        
-    }
-    
+
     #musiclinks iframe {
         
         width: 100%;
