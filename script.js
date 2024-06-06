@@ -40,6 +40,8 @@ let Project = (projlink, projname, projdesc, projid, projseas, addLinks = null) 
 let myname = "Sam Hopkins";
 let degreetype = "BS";
 let degreename = "Data Science & AI";
+let degree2type = "BA";
+let degree2name = "Computer Science";
 let university = "University of Miami";
 let email = "samjhopkins9@gmail.com";
 let phonenumber = "415-480-9033";
@@ -70,7 +72,7 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "BS in Data Science & Artificial Intelligence, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
+    School("University of Miami", "Coral Gables, FL", "BS in Data Science & Artificial Intelligence + BA in Computer Science, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
 ];
 
 let courses = [
@@ -116,7 +118,9 @@ function loadHTML(){
     // document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
-    document.getElementById('description').innerHTML = `${degreetype} in ${degreename} at ${university}`;
+    document.getElementById('description').innerHTML = `${degreetype} in ${degreename} + `;
+    document.getElementById('description').innerHTML += `${degree2type} in ${degree2name} <br>`;
+    document.getElementById('description').innerHTML += `University of Miami`;
     document.getElementById('bio').innerHTML = bio;
     
     let jobshtml = "";
