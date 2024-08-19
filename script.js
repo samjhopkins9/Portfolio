@@ -98,9 +98,7 @@ let courses = [
 ];
 
 let projects = [
-    Project('https://whoisredwave.com', 'REDWAVE.',
-    "Current EDM production/DJing project.", 'redwave', "September 2023 - Present"),
-
+    
     Project("https://samjhopkins9.github.io/SalaryModel_RF/docs/Report.html", "Regression Model for Predicting Salary (R)",
             "This project uses a dataset downloaded from Kaggle to create a regression model to predict an individual's salary based on their age, years of experience, education level, and gender.", "salarymodel", "February 2024 - Present", ["https://samjhopkins9.github.io/SalaryModel_RF/src/Project1.html"]),
     Project("https://samjhopkins9.github.io/Character-Classifier/", "Image Classifier for Written Characters (Python)",
@@ -108,6 +106,10 @@ let projects = [
     Project("https://samjhopkins9.github.io/Banknote-Classifier/", "Classifier for Real/Fake Banknotes (Python)",
             
             "This project uses .csv data to classify banknotes as real or fake based on several given attributes.", "notemodel", "March 2024"),
+    
+    Project('https://whoisredwave.com', 'REDWAVE.',
+    "Current EDM production/DJing project.", 'redwave', "September 2023 - Present"),
+
     Project("https://samjhopkins9.github.io/Options-Calculator-Market-Newsfeed", "Black-Scholes Options Price Calculator & Market Newsfeed (JavaScript/HTML/CSS)",
             "This desktop webpage displays news, some simple charts, and some basic information pertaining to a volatility of the given stock or ETF using minutely data over the last 2 weeks. It also uses the Black-Scholes formula to calculate the price of short-term options contracts with strike prices near the underlying, at various levels of implied volatility, with time decay measured after a certain amount of minutes, and the underlying price taken at three points: its current price, plus, and minus a specified percentage movement. This was largely created for the purpose of calculating fluctuations in high-volume daily contracts on ETFs.", 'interface', "July 2023"),
     
