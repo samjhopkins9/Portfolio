@@ -167,9 +167,7 @@ main {
 
 
 #bulletpoints {
-    
-    /* margin: 0 auto; */
-    
+        
     flex-flow: row;
     justify-content: center;
     
@@ -184,6 +182,7 @@ main {
 #projects {
     
     display: flex;
+    
 }
 
 #edu_exp, #edu_exp h4, #projects, #projects h4 {
