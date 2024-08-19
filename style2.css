@@ -168,7 +168,7 @@ main {
 
 #bulletpoints {
     
-    margin: 0 auto;
+    /* margin: 0 auto; */
     
     flex-flow: row;
     justify-content: center;
@@ -177,7 +177,7 @@ main {
 
 #bulletpoints ul {
     
-    margin: 15px;
+    margin: 0.1%;
     
 }
 
@@ -199,7 +199,7 @@ main {
 #edu_exp li, #projects li {
     
     font-family: "Academy";
-    font-size: 24px;
+    font-size: 19px;
     
 }
 
@@ -223,36 +223,3 @@ footer {
     align-items: center;
     
 }
-
-
-/*
-@media only screen and (max-width: 1300px){
-    
-    body {
-        
-        font-size: 150%;
-        
-    }
-    
-    #edu_exp, #edu_exp div, #edu_exp h4, #projects, #projects h4 {
-        
-        width: 100%;
-        position: relative;
-        left: 0%;
-        
-    }
-    
-    #bulletpoints, #musiclinks {
-        
-        flex-flow: column;
-        
-    }
-
-    #musiclinks iframe {
-        
-        width: 100%;
-        
-    }
-    
-}
-*/
