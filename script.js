@@ -76,6 +76,9 @@ let schools = [
 ];
 
 let courses = [
+    Course('', 'Computer Organization & Architecture', 'University of Miami'),
+    Course('', 'Data Structures & Algorithms', 'University of Miami'),
+    Course('', 'Neural Networks', 'University of Miami'),
     Course('', 'Statistical Learning with Applications', 'University of Miami'),
     Course('', 'Intro to Python for Scientists', 'University of Miami'),
     Course('', 'Computer Programming II', 'University of Miami'),
