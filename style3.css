@@ -65,5 +65,12 @@ body {
     
 }
 
+#edu_exp {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
 
 
