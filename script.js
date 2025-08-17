@@ -73,7 +73,7 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "Dual BS in Data Science & Artificial Intelligence + Computer Science Fundamentals, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
+    School("University of Miami", "Coral Gables, FL", "Dual BS in Data Science & Artificial Intelligence + Computer Science Fundamentals, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. Expected graduation December 2026.")
 ];
 
 let courses = [
