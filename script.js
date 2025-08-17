@@ -65,7 +65,10 @@ let jobs = [
         "", ""),
     Job("Computer Programmer", "Self-employed", "Ongoing",
         "Completed several self-directed projects, including: A convolutional neural network for predicting vehicle position in a garage, along with a set of c++ header files for data handling, machine learning and multilayer perceptron in c++; a Black-Scholes-based option price calculator with an attached chart section and market newsfeed, within an html-based UI; a random forest-based regression model to predict salaries; a classifier for written characters; and a classifier of real/fake banknotes.",
-        "", "")
+        "", ""),
+    Job("Server", "King Eider's Pub", "Damariscotta, ME",
+         "Waited on tables, which involved taking food/drink orders, delivering food, bussing tables, and restocking items in a pub-style restaurant in Damariscotta, ME.",
+         "30-35 hours/week, ", "June-August 2025")
 ];
 
 let schools = [

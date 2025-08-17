@@ -19,6 +19,13 @@
     src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
 }
 
+@media print {
+  .page-break {
+    /* page-break-before: always; /* or page-break-after: always */
+    break-before: page;        /* modern syntax */
+  }
+}
+
 /* top level */
 
 html {
@@ -35,6 +42,22 @@ h1, h2, h3, h4, h5, h6 {
     
     font-family: "Bebas Neue";
     text-align: center;
+    
+}
+
+#contactinfo {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#phone, #email, #linkedin {
+    
+    margin-bottom: 0;
+    display: inline;
     
 }
 
