@@ -67,7 +67,7 @@ let jobs = [
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
         "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
     Job("Server", "King Eider's Pub", "Damariscotta, ME",
-        "Waited on tables, which involved taking food/drink orders, delivering food, bussing tables, and restocking items in a pub-style restaurant in Damariscotta, ME.",
+        "Received and delivered customer orders, stocked items, and bussed tables at a pub-style restaurant in Damariscotta, ME.",
         "30-35 hours/week, ", "June-August 2025")
 ];
 

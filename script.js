@@ -47,9 +47,9 @@ let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
 let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include data analytics, machine learning, audio software development and sound design.
     <br>
     <br>
-    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Data Science and Artificial Intelligence with minors in Math and Music.
+    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Data Science and Artificial Intelligence with an additional major in Computer Science Fundamentals, and minors in Math and Music.
     <br>
-    I spent my first two and a half years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I decided to change my course after I learned to code via online courses during the summer of 2022 and quickly found myself immersed in it and driven to learn as much as I could. I have realized that the aspects of computer science that appeal to me the most are the data-driven ones. I would be happy in any position where I can gather, inspect, clean, crunch, and interpret data. `;
+    I spent my first two and a half years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I decided to change my course of study junior year, 2.5 years into music school, after learning to code and realizing I wanted to study computers and programming more than I wanted to study music. I still love music and spend time making it, but I've also spent a lot of time time on programming projects in order to hone my skills so I can ultimately do something related to both.`;
 
 let skills = ['Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel', 'Ableton Live', 'DJing', 'Drums', 'Logic Pro X', 'Avid Pro Tools', 'Spanish', 'Customer Service'];
 
@@ -61,14 +61,14 @@ let jobs = [
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
         "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
     Job("Music Producer", "Self-employed", "Ongoing",
-        "Writer and producer of electronic music, working under the name REDWAVE. I have released four 4-5 song EPs this year.",
+        "Writer and producer of electronic music, releasing under the name REDWAVE since 2023.",
         "", ""),
     Job("Computer Programmer", "Self-employed", "Ongoing",
         "Completed several self-directed projects, including: A convolutional neural network for predicting vehicle position in a garage, along with a set of c++ header files for data handling, machine learning and multilayer perceptron in c++; a Black-Scholes-based option price calculator with an attached chart section and market newsfeed, within an html-based UI; a random forest-based regression model to predict salaries; a classifier for written characters; and a classifier of real/fake banknotes.",
         "", ""),
     Job("Server", "King Eider's Pub", "Damariscotta, ME",
-         "Waited on tables, which involved taking food/drink orders, delivering food, bussing tables, and restocking items in a pub-style restaurant in Damariscotta, ME.",
-         "30-35 hours/week, ", "June-August 2025")
+        "Received and delivered customer orders, stocked items, and bussed tables at a pub-style restaurant in Damariscotta, ME.",
+        "30-35 hours/week, ", "June-August 2025")
 ];
 
 let schools = [
@@ -179,7 +179,7 @@ function loadHTML(){
             }
         }
         if (projects[i].projname === "REDWAVE."){
-            projectshtml += `<div id="musiclinks"><iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1805557528&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><iframe width="50%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/1758975567&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div><br><br>`;
+            projectshtml += `<div id="musiclinks"><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2124608415&color=%237c1c24&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/2085177957&color=%237c1c24&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe></div><br><br>`;
         }
     }
     document.getElementById('projectslist').innerHTML = projectshtml;
