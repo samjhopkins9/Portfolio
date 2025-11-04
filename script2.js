@@ -73,7 +73,7 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "Dual BS in Data Science & Artificial Intelligence + Computer Science Fundamentals, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. Expected graduation December 2026.")
+    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
 ];
 
 let courses = [
@@ -129,9 +129,9 @@ function loadHTML(){
     // document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
-    document.getElementById('description').innerHTML = `${degreetype} in ${degreename} @ `;
+    // document.getElementById('description').innerHTML = `${degreetype} in ${degreename} @ `;
     // document.getElementById('description').innerHTML += `${degree2type} in ${degree2name} <br>`;
-    document.getElementById('description').innerHTML += `University of Miami`;
+    // document.getElementById('description').innerHTML += `University of Miami`;
     // document.getElementById('bio').innerHTML = bio;
     
     let jobshtml = "";

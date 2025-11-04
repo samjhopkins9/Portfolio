@@ -47,9 +47,7 @@ let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
 let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include data analytics, machine learning, audio software development and sound design.
     <br>
     <br>
-    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. Now, I am at the University of Miami pursuing a B.S. in Data Science and Artificial Intelligence with an additional major in Computer Science Fundamentals, and minors in Math and Music.
-    <br>
-    I spent my first two and a half years in Miami pursuing a degree in Music Production/Engineering in the Frost School of Music. I decided to change my course of study junior year, 2.5 years into music school, after learning to code and realizing I wanted to study computers and programming more than I wanted to study music. I still love music and spend time making it, but I've also spent a lot of time time on programming projects in order to hone my skills so I can ultimately do something related to both.`;
+    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. I came to Miami in 2020 to study Music Production/Egineering at UM, which I did for 2 years before switching into Computer Science. I studied Computer Science for 2 more years, nearly finished my degree, but recently decided to take an indefinite hiatus from school to focus on creating my own music and music software.`;
 
 let skills = ['Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel', 'Ableton Live', 'DJing', 'Drums', 'Logic Pro X', 'Avid Pro Tools', 'Spanish', 'Customer Service'];
 
@@ -73,7 +71,7 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "Dual BS in Data Science & Artificial Intelligence + Computer Science Fundamentals, minors in Math and Music. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. Expected graduation December 2026.")
+    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
 ];
 
 let courses = [
@@ -129,9 +127,9 @@ function loadHTML(){
     // document.getElementById('headshotp').innerHTML = `<img src="headshot2.jpeg" id="headshot"></img>`;
     document.getElementById('title').innerHTML = myname;
     document.getElementById('name').innerHTML = myname;
-    document.getElementById('description').innerHTML = `${degreetype} in ${degreename} @ `;
+    // document.getElementById('description').innerHTML = `${degreetype} in ${degreename} @ `;
     // document.getElementById('description').innerHTML += `${degree2type} in ${degree2name} <br>`;
-    document.getElementById('description').innerHTML += `University of Miami`;
+    // document.getElementById('description').innerHTML += `University of Miami`;
     document.getElementById('bio').innerHTML = bio;
     
     let jobshtml = "";
