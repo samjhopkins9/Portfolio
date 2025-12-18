@@ -71,7 +71,8 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
+    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree. ")
+    // Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. 
 ];
 
 let courses = [
