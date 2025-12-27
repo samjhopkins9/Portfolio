@@ -44,11 +44,10 @@ let university = "University of Miami";
 let email = "samjhopkins9@gmail.com";
 let phonenumber = "415-480-9033";
 let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
-let bio = `Lifelong musician with a passion for programming and data analysis. My interests include music production, data analytics, machine learning, audio software development and sound design.
+let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include electronic music production, audio software development, sound design, data analytics & machine learning.
     <br>
     <br>
-    Currently at the University of Miami pursuing a dual B.S. in Data Science and Artificial Intelligence & Computer Science with minors in Math and Music.
-    <br>`;
+    Currently taking an indefinite hiatus from school to focus on creating my own music and music software.`;
 
 let skills = ['Customer Service', 'Spanish', 'Ableton Live', 'Avid Pro Tools', 'DJing', 'Drums', 'Logic Pro X', 'Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel'];
 
@@ -56,16 +55,15 @@ let jobs = [
     Job("Computer Programmer", "Self-employed", "Ongoing",
         "Completed several self-directed projects (see projects section below).",
         "", ""),
-    Job("Music Producer", "Self-employed", "Ongoing",
-        "Writer and producer of electronic music, working under the name REDWAVE. I've released 2 singles this year, and four 4-5 song EPs in 2024.",
-        
-        "", ""),
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
         "Bussed tables, ran food, and washed dishes in a fast-paced seasonal dockside restaurant in Pemaquid, ME.",
         "15-25 hours/week, ", "June-August 2018"),
     Job("Host/Busser", "The Cantina", "Mill Valley, CA",
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
         "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
+    Job("Music Producer", "Self-employed", "Ongoing",
+        "Writer and producer of electronic music, working under the name REDWAVE.",
+        "", ""),
     Job("Server", "King Eider's Pub", "Damariscotta, ME",
         "Received and delivered customer orders, stocked items, and bussed tables at a pub-style restaurant in Damariscotta, ME.",
         "30-35 hours/week, ", "June-August 2025")
@@ -73,7 +71,7 @@ let jobs = [
 
 let schools = [
     School("Marin Academy", "San Rafael, CA", "Class of 2020."),
-    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree. Founding Father of Zeta Beta Tau Fraternity, Alpha Omega Chapter. ")
+    School("University of Miami", "Coral Gables, FL", "Completed 2 years studying Music Engineering and 2 studying Computer Science and Math. Not currently pursuing a degree.")
 ];
 
 let courses = [
@@ -187,7 +185,6 @@ function loadHTML(){
     
     document.getElementById('email').innerHTML = `<a href=mailto:${email} target="_BLANK">${email}</a>`;
     document.getElementById('phone').innerHTML = `${phonenumber}`;
-    document.getElementById('linkedin').innerHTML = `<a href="${linkedin}">Linkedin</a>`;
 }
 
 let sectionIDs = ["biopar", "edu_exp", "education", "experience", "bulletpoints", "skills", "certifications", "courses", "projects"];
