@@ -1,0 +1,224 @@
+/* import fonts */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Tinos";
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Arsenal";
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    
+    font-family: "Academy";
+    src: url('Fonts/Academy Engraved LET Fonts.ttf') format('truetype');
+    
+}
+
+
+
+/* top-level */
+
+html {
+    
+    background-color: #000;
+    color: #eee;
+    font-family: "Arsenal"
+    
+}
+
+header h5 {
+    font-family: "Tinos";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Bebas Neue";
+    text-align: center;
+    
+}
+
+a {
+    
+    color: #c14;
+    
+}
+
+a:hover {
+    
+    color: #41e;
+    transition: 0.2s;
+    
+}
+
+
+/* header */
+
+header {
+    background: linear-gradient(to bottom, #004, #902);
+
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+/* nav bar */
+
+nav {
+    
+    background: linear-gradient(to bottom, #902, #000);
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+nav h3 {
+    
+    padding: 10px;
+    border: 3px groove #666;
+    margin-left: 1%;
+    margin-right: 1%;
+    
+    color: #fff;
+    border-radius: 4px;
+    
+}
+
+nav h3:hover {
+    
+    cursor: pointer;
+    color: #c14;
+    border-color: #c14;
+    transition: 0.3s;
+    
+}
+
+
+
+/* main section */
+
+#main1 {
+    
+    background: linear-gradient(to bottom, #000, #001);
+    height: 100%;
+    
+}
+
+main {
+            
+    margin: 30px;
+    
+    display: flex;
+    flex-flow: column;
+    
+    flex: 1;
+
+}
+
+.section {
+        
+    display: none;
+    flex-flow: column;
+    
+    
+}
+
+#biopar {
+        
+    width: 75%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    margin: 0 auto;
+    
+    display: none;
+    
+}
+
+
+#bio {
+    
+    padding: 10px;
+    
+}
+
+#headshotp img {
+    
+    width: 100%;
+    
+}
+
+
+#bulletpoints {
+        
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+#bulletpoints ul {
+    
+    margin: 0.1%;
+    
+}
+
+#projects {
+    
+    display: flex;
+    
+}
+
+#edu_exp, #edu_exp h4, #projects, #projects h4 {
+    
+    width: 75%;
+    position: relative;
+    left: 12.5%;
+    
+    align-items: flex-start;
+    
+}
+
+#edu_exp li, #projects li {
+    
+    font-family: "Academy";
+    font-size: 19px;
+    
+}
+
+#musiclinks {
+    
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+
+
+/* footer */
+
+footer {
+        
+    background: linear-gradient(to bottom, #001, #000);
+        
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}

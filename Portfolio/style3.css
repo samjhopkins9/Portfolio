@@ -1,0 +1,99 @@
+/* import fonts */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Crimson';
+    src: url('Fonts/CrimsonText-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Tinos";
+    src: url('Fonts/Tinos-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Arsenal";
+    src: url('Fonts/Arsenal-Regular.ttf') format('truetype');
+}
+
+@media print {
+  .page-break {
+    /* page-break-before: always; /* or page-break-after: always */
+    break-before: page;        /* modern syntax */
+  }
+}
+
+/* top level */
+
+html {
+    
+    font-family: "Arsenal"
+    
+}
+
+header h5 {
+    font-family: "Tinos";
+}
+
+h1, h2, h3, h4, h5, h6 {
+    
+    font-family: "Bebas Neue";
+    text-align: center;
+    
+}
+
+#contactinfo {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#phone, #email, #linkedin {
+    
+    margin-bottom: 0;
+    display: inline;
+    
+}
+
+body {
+    
+    /* sizing and position */
+    width: 800px;
+    position: relative;
+    margin: 0 auto;
+    
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/* sections */
+
+#edu_exp, #bulletpoints {
+    
+    
+    display: flex;
+    flex-flow: row;
+    align-items: top;
+    
+}
+
+#edu_exp {
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    
+}
+
+
