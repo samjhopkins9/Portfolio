@@ -62,7 +62,7 @@ let jobs = [
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
         "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
     Job("Music Producer", "Self-employed", "Ongoing",
-        "Writer and producer of electronic music, working under the name REDWAVE.",
+        "Writer and producer of electronic music, working under the name REDWAVE. (more at whoisredwave.com)",
         "", ""),
     Job("Server", "King Eider's Pub", "Damariscotta, ME",
         "Received and delivered customer orders, stocked items, and bussed tables at a pub-style restaurant in Damariscotta, ME.",
