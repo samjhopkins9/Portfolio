@@ -44,16 +44,21 @@ let university = "University of Miami";
 let email = "samjhopkins9@gmail.com";
 let phonenumber = "415-480-9033";
 let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
-let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include electronic music production, audio software development, sound design, data analytics & machine learning.
+let bio = `Lifelong musician with a passion for computers and programming. 
+I am skilled in a diverse set of programming languages including C++, bash scripting, JavaScript/HTML/CSS, Python, R & Java. 
+My interests include electronic music production, audio software development, operating systems & machine learning.
     <br>
     <br>
     Currently taking an indefinite hiatus from school to focus on creating my own music and music software.`;
 
-let skills = ['Customer Service', 'Spanish', 'Ableton Live', 'Avid Pro Tools', 'DJing', 'Drums', 'Logic Pro X', 'Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel'];
+let skills = ['Customer Service', 'Spanish', 
+    'Linux', 'Bash scripting', 'Object Oriented Programming', 'C++', 'Python', 'JavaScript/HTML/CSS', 'R', 'Java', 'Swift', 'Git', 
+    'Ableton Live', 'Bitwig Studio', 'DJing', 'Drums', 'Logic Pro X', 'Avid Pro Tools', 
+    'Linear Algebra', 'Statistics/Probability', 'Quantitative Finance', 'Excel'];
 
 let jobs = [
     Job("Computer Programmer", "Self-employed", "Ongoing",
-        "Completed several self-directed projects (see projects section below).",
+        "Completed several self-directed projects (see github.com/samjhopkins9).",
         "", ""),
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
         "Bussed tables, ran food, and washed dishes in a fast-paced seasonal dockside restaurant in Pemaquid, ME.",

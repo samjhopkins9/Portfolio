@@ -47,9 +47,16 @@ let linkedin = "https://www.linkedin.com/in/sam-hopkins-6656a6205/";
 let bio = `Lifelong musician with a passion for programming and data analysis. I am skilled in a diverse set of programming languages including Python, R, C++, Java, Bash, JavaScript, HTML and CSS. My interests include electronic music production, audio software development, sound design, data analytics & machine learning.
     <br>
     <br>
-    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. I wemt to Miami in 2020 to study Music Production/Egineering at UM, which I did for 2 years before switching into Computer Science. I studied Computer Science for 2 more years, nearly finished my degree, but recently decided to take an indefinite hiatus from school to focus on creating my own music and music software.`;
+    I was born in Boston, experienced my earliest memories living in Hong Kong, and primarily grew up in Mill Valley, CA, right outside of San Francisco. 
+    I wemt to Miami in 2020 to study Music Production/Egineering at UM, which I did for 2 years before switching into Computer Science. 
+    I studied Computer Science for 2 more years, nearly finished my degree, but recently decided to take an indefinite hiatus from school 
+    to focus on creating my own music and music software.`;
 
-let skills = ['Customer Service', 'Spanish', 'Ableton Live', 'Avid Pro Tools', 'DJing', 'Drums', 'Logic Pro X', 'Object Oriented Programming', 'Python', 'R', 'C++', 'Java', 'Bash', 'JavaScript', 'HTML', 'CSS', 'Swift', 'Git', 'Linear Algebra', 'Statistics', 'Probability', 'Quantitative Finance', 'Excel'];
+
+let skills = ['Customer Service', 'Spanish', 
+    'Linux', 'Bash scripting', 'Object Oriented Programming', 'C++', 'Python', 'JavaScript/HTML/CSS', 'R', 'Java', 'Swift', 'Git', 
+    'Ableton Live', 'Bitwig Studio', 'DJing', 'Drums', 'Logic Pro X', 'Avid Pro Tools', 
+    'Linear Algebra', 'Statistics/Probability', 'Quantitative Finance', 'Excel'];
 
 let jobs = [
     Job("Busser/Dishwasher/Food Runner", "The Contented Sole", "Pemaquid, ME",
@@ -59,10 +66,10 @@ let jobs = [
         "Bussed tables, stocked items, took phone orders and sat customers in a full-service Mexican restaurant in Mill Valley, CA.",
         "15-25 hours/week, ", "June-August 2020/2021, June-July 2022"),
     Job("Computer Programmer", "Self-employed", "Ongoing",
-        "Completed several self-directed projects, including: A convolutional neural network for predicting vehicle position in a garage, along with a set of c++ header files for data handling, machine learning and multilayer perceptron in c++; a Black-Scholes-based option price calculator with an attached chart section and market newsfeed, within an html-based UI; a random forest-based regression model to predict salaries; a classifier for written characters; and a classifier of real/fake banknotes.",
+        "Completed several self-directed projects (see projects tab)", 
         "", ""),
     Job("Music Producer", "Self-employed", "Ongoing",
-        "Writer and producer of electronic music, releasing under the name REDWAVE since 2023.",
+        "Writer and producer of electronic music, working under the name REDWAVE.",
         "", ""),
     Job("Server", "King Eider's Pub", "Damariscotta, ME",
         "Received and delivered customer orders, stocked items, and bussed tables at a pub-style restaurant in Damariscotta, ME.",
